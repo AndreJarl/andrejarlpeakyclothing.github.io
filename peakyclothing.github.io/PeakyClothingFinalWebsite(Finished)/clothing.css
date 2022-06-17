@@ -543,7 +543,12 @@ nav ul{
 				margin: 2em 4em;
 				gap:4em;
 }
+.procontainer{
+	display: flex;
+ overflow-x: hidden;
+ margin: 0em .5em;
 
+}
 }
 
 
