@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+
+body{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: 'Poppins', sans-serif;
+}	
+	
+html{
+				scroll-behavior: smooth;
+}						
+ 
+ .header{
+    
+     width: 100%;
+ 			 margin: 0;      
+           
+      
+ } 
+ 
+ .container{
+    margin: 0;
+      padding: 0;
+      width: 101%;    
+				position: fixed;  
+				z-index: 555;
+			 transition: 1s ease-in-out;
+				
+}
+
+.logo{
+				font-size: 18px;
+				font-weight: bold;
+				color: white;
+				text-decoration: none;
+				transition: .5s ease-in-out;			
+						
+}
+
+.loo{
+				padding: 1em 2em;
+}
+
+.cloth{
+				color: red;				
+}			
+
+.logo:hover{
+				font-size: 19px;
+				color: white;
+}
+
+.haho{     
+			background: whitesmoke;
+				
+}
+.haha{
+     
+				height: 120vh;
+				background: url("Peaky.jpg");				
+      background-position: center;
+      background-size: cover;	
+}
+.se3{
+				
+				background: url("peakycar.jpg") ;
+				background-repeat: no-repeat;
+				background-size: cover;
+				
+}
+
+
+.shopbtn{
+			margin: 0;
+			padding-top: 20em;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 2em;
+					
+}
+.shopbtn p{
+				color: white;
+				text-align: center;
+				font-weight: bold;				
+}
+.shopbtn span{
+				color: red;
+				text-transform: uppercase;
+				font-size: 20px;
+				font-weight: bold;
+}
+.shopbtn button {
+      border: none;
+				background: red;
+				padding: 1em 3em;
+				text-transform: uppercase;
+				font-weight: bold;
+				display: flex;
+				gap:.5em;			
+				cursor: pointer;
+				
+}
+
+.shopbtn a{
+				text-decoration: none;
+				color: white;
+				padding-top: -.1em;
+				margin: 0;
+				cursor: pointer;
+}
+.bt{
+				width: 13px;
+}
+
+.container.active{
+				background: rgb(0,0,0,0.6);
+}
+
+.bgcolor{
+				background: rgb(0,0,0,0.6);
+}
+
+.title {
+			padding-top: 3em ;		
+			position: relative;
+			margin: 0;
+			padding-bottom: 2.5em;
+			
+}
+.title p{
+      color: white;
+				text-align: center;
+				font-size: 35px;
+				margin: 0;				
+				font-weight: bolder;
+								
+}
+.co{
+				color: red;
+				font-size: 20px;
+				display: flex;
+				justify-content: center;
+				font-weight: 600;
+}
+
+
+.procontainer{
+				display: flex;
+			 overflow-x: scroll;
+			 margin: 0em .5em;
+			
+}
+
+.imgcontainer1{
+				background: whitesmoke;
+				margin: 0em .6em;
+				border-radius: 10px;
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+}
+.conimg1 img{
+				width: 170px;
+				display: flex;
+				justify-content: center;		
+				align-items: center;	
+				padding-top: 1em;	
+}
+
+.condesc1 p{
+				font-size: 10px;
+}
+.condesc1{
+				padding: .1em 1em;
+}
+
+.condesc1 button{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: .5em 2em;
+				border-radius: 10px;
+				margin-left: .5em;
+				margin-bottom: .5em;
+				background: red;
+				border: none;
+				color: white;
+}
+
+.condesc1 button:hover{
+				background: orange;
+}
+
+#coat{
+				width: 150px;
+}
+#cart{
+				margin-left: -1em;
+				background: white;
+				padding: 0 1em;
+				border-radius: 10px;
+}
+#down{
+				padding-bottom: 4em;
+}
+.contact{
+				
+				background: white;
+}
+
+.conform{
+				background: red;				
+				height: 400px;				
+				padding: 0em 4em;
+				margin: 2em 1em;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				border-radius: 10px;		
+				color: white;		
+				font-size: 15px;
+}
+.conform button{
+				background: whitesmoke;
+				padding: .6em 4em;
+				border: skyblue;
+				font-size: 15px;
+				border-radius: 10px;
+				transition: .5s;
+				font-weight: bold;
+}
+.conform button:hover{
+				
+				border: 1px solid white;
+				
+}
+.na{
+			text-align: center;
+			font-size: 17px;
+			font-weight: bold;
+}
+
+.acc {
+				display: flex;
+				gap:6em;
+			 margin: 2em 0em;
+				text-decoration: none;
+				
+}
+.social a{
+				text-decoration: none;
+				color: blue;
+				
+}
+.pea{
+				font-size: 15px;
+				font-weight: bold;
+}
+.pea span{
+				color: red;
+}
+.dre span{
+				color: red;
+				font-weight: 400;
+}
+.social p{
+				font-weight: bold;
+}
+.price{
+				font-weight: 300;
+}
+
+@media screen and (max-width:900px){
+
+nav a{
+				text-decoration: none;			
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 5em 0em;
+				color: white;
+				
+							
+}
+
+.nav-menu{
+				list-style-type: none;
+				display: block;
+				position: absolute;
+				background: url('0,0,0,0.6');
+				top: 1em;
+			 left: 100em;
+			 right: 0;
+				width: 100%;
+				transition: .5s ease-in-out;
+				
+}
+	
+				
+.nav-menu.active{
+				list-style-type: none;
+				display: block;
+				position: absolute;					 
+				background: rgb(0,0,0,.7);
+				top: 3em;
+			 left: -2em;
+			 right: 0;
+				width: 100%;
+				height: 120vh;
+				
+																						
+}
+
+.hamburger{
+									cursor: pointer;
+									float: right;
+									margin-top: -3.8em;
+									margin-right: 3em;
+									display: block;
+									
+					}
+					.bare{
+									display: block;
+									width: 2.5em;
+									height: .2em;
+									margin: 5px auto;
+									background: red;			
+									transition: .5s;					
+								 									
+					}
+														
+					
+					.hamburger.active .bare:nth-child(2){
+									opacity: 0;
+					}
+					
+					.hamburger.active .bare:nth-child(1){
+									transform: translateY(8px) rotate(45deg);
+					}
+					.hamburger.active .bare:nth-child(3){
+									transform: translateY(-8px) rotate(-45deg);
+					}
+.condesc{
+				margin: 0em 4em;
+}
+.acc {
+				display: flex;
+				gap:4em;
+			 margin: 2em 0em;
+				text-decoration: none;
+				
+}
+}
+
+.pcontain{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding-top: 2em;
+				gap:4em;
+				padding-bottom: 3em;
+				
+}
+.short{				
+				display: grid;
+				gap:2em;				
+}
+.short p{
+				font-size: 10px;
+}
+.short span{
+				color: red;
+				font-size: 20px;
+}
+.ben{
+      		
+				width: 200px;
+				transition: .5s ease-in-out;
+			
+}
+.ben:hover{
+				transform: translateY(-20px);
+				border: 1px solid red;
+}
+.long{     				
+      display: grid;
+      gap: 2em;						
+}
+
+.long p{
+				font-size: 10px;
+				padding-bottom: 3em;
+}
+.long span{
+				color: red;
+				font-size: 20px;
+}
+.aunt{
+      margin-left: .5em;
+				width:250px ;				
+				transition: .5s ease-in-out;
+}
+.aunt:hover{
+				transform: translateY(-20px);
+				border: 3px solid red;
+}
+
+
+			 
+@media screen and (min-width:900px){			 																		
+ header{
+ 				 margin: 0;
+      padding: 0;       
+      position: relative;
+ } 
+  
+nav{			
+				margin: 0;
+				padding: 0;
+}  
+
+nav a{
+				text-decoration: none;
+				font-size: 20px;
+				font-weight: 500;
+				cursor: pointer;
+				transition: .4s;
+				float: right;
+				color: white;
+}
+
+.nav-items:hover{
+				color: red;
+				font-size: 22px;
+			  transform: translateY(-10px);
+}
+
+
+nav ul{
+				list-style: none;
+				display: flex;
+				gap:3em;
+		   float: right;
+		   margin-top: -5.3em;
+			 margin-right: 5em;
+					
+								
+}
+			
+.container{
+    margin: 0;
+      padding: 0;
+      width: 101%;			       				
+				position: fixed;  		
+}
+.logo{
+				font-size: 25px;
+				font-weight: bold;
+				color: white;
+				text-decoration: none;
+				transition: .5s ease-in-out;			
+										
+}
+
+.loo{
+				padding: 2em 3em;
+}
+
+
+.logo:hover{
+				font-size: 27px;
+}
+.pcontain{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 3em 5em;				
+				
+}
+.short{
+				padding-top: 3em;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap:2em;	
+				padding-bottom: 2em;			
+}
+.short p{
+				font-size: 20px;
+}
+.short span{
+				color: red;
+				font-size: 40px;
+}
+.ben{
+				width: 300px;
+				transition: 1s ease-in-out;
+			
+}
+.ben:hover{
+				transform: translateY(-20px);
+				border: 1px solid red;
+}
+.long{     
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap:2em;
+				padding-bottom: 6em;
+				padding-left: 1em;
+}
+
+.long p{
+				font-size: 20px;
+}
+.long span{
+				color: red;
+				font-size: 40px;
+}
+.aunt{
+				width:400px ;				
+				transition: 1s ease-in-out;
+}
+.aunt:hover{
+				transform: translateY(-20px);
+				border: 3px solid red;
+}
+
+.contactcon{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 2em 4em;
+				gap:4em;
+}
+
+}
+
+
